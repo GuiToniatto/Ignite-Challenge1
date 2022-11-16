@@ -1,0 +1,62 @@
+.wrapper {
+    margin-top: 4rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: bottom;
+
+    margin-bottom: 2rem;
+}
+
+p {
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+
+.createdTodo {
+    color: var(--blue-500);
+}
+
+.concludedTodo {
+    color: var(--purple-500);
+}
+
+.count {
+    background: var(--gray-400);
+    padding: 2px 8px;
+    border-radius: 999px;
+
+    color: var(--gray-200);
+
+    line-height: 1rem;
+    font-size: 0.75rem;
+}
+
+.content {
+    border-top: 1px solid var(--gray-400);
+    padding-top: 4rem;
+}
+
+.emptyList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+h5 {
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: var(--gray-300);
+
+    text-align: center;
+}
+
+.emptySubtile {
+    font-weight: 400;
+}
